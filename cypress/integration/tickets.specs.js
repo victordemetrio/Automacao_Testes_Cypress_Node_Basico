@@ -25,7 +25,7 @@ describe("Tickets",() => {
     //interagindo com checkbox--------------------------
     it("select 'social'checkbox", () => {
         cy.get("#social-media").check();
-        //cy.get("#//label[contains(text(),'Publication')]").check(); como usar Xpath?
+        //cy.get("#//label[contains(text(),'Publication')]").check(); como usar Xpath? = https://www.npmjs.com/package/cypress-xpath
     });
     it("select 'all'checkbox", () => {
         cy.get("#social-media").check();
